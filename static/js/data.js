@@ -1,4 +1,4 @@
-var data = [
+export const data = [
   {
     datetime: "1/1/2010",
     city: "benton",
