@@ -30,10 +30,10 @@
   "dependencies": {
     "bootstrap": "4.5.2",
     "d3": "6.2.0",
-    "flatpickr": "^4.6.6",
+    "flatpickr": "4.6.6",
     "jquery": "3.5.1",
     "popper.js": "1.16.1-lts",
-    "postcss": "^8.1.1"
+    "postcss": "8.1.1"
   },
   "devDependencies": {
     "@types/node": "14.11.2",
