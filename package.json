@@ -28,22 +28,12 @@
   "author": "Jovani Pink",
   "license": "MIT",
   "dependencies": {
-<<<<<<< HEAD
-=======
-    "bootstrap": "4.5.2",
-    "d3": "6.2.0",
-    "flatpickr": "4.6.6",
->>>>>>> 016db0f5c754eeb1a061f3b8bebe5aad1be0f75f
     "jquery": "3.5.1",
     "bootstrap": "4.5.2",
     "popper.js": "1.16.1-lts",
-<<<<<<< HEAD
     "flatpickr": "^4.6.6",
     "postcss": "^8.1.1",
     "d3": "6.2.0"
-=======
-    "postcss": "8.1.1"
->>>>>>> 016db0f5c754eeb1a061f3b8bebe5aad1be0f75f
   },
   "devDependencies": {
     "@types/node": "14.11.2",
