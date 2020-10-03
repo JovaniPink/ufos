@@ -1,0 +1,35 @@
+//
+// Override Bootstrap's Sass default variables
+//
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-color: #fafafa;
+$body-bg: #73737d;
+
+//
+// Bring in Bootstrap
+//
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+//
+// Custom styles
+//
+
+// Body
+body {
+  padding: 3rem;
+}
+
+// Jumbotron
+#header {
+  background-image: url("../images/nasa.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

@@ -1,7 +1,7 @@
 {
   "name": "ufos",
   "version": "1.0.0",
-  "description": "Creating a filterable table to display the ufo data.",
+  "description": "Creating a filterable table to display the UFO data.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JovaniPink/ufos.git"
@@ -28,12 +28,12 @@
   "author": "Jovani Pink",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "4.5.2",
-    "d3": "6.2.0",
-    "flatpickr": "^4.6.6",
     "jquery": "3.5.1",
+    "bootstrap": "4.5.2",
     "popper.js": "1.16.1-lts",
-    "postcss": "^8.1.1"
+    "flatpickr": "^4.6.6",
+    "postcss": "^8.1.1",
+    "d3": "6.2.0"
   },
   "devDependencies": {
     "@types/node": "14.11.2",
