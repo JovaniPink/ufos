@@ -31,8 +31,8 @@
     "jquery": "3.5.1",
     "bootstrap": "4.5.2",
     "popper.js": "1.16.1-lts",
-    "flatpickr": "^4.6.6",
-    "postcss": "^8.1.1",
+    "flatpickr": "4.6.6",
+    "postcss": "8.1.1",
     "d3": "6.2.0"
   },
   "devDependencies": {
