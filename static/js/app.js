@@ -1,7 +1,8 @@
-// Import Bootstrap's bundle (all of Bootstrap's JS + Popper.js dependency)
-//
-//
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+// Import Bootstrap
+import "bootstrap";
+
+// Importing the custom scss
+import "../scss/style.scss";
 
 // Importing D3
 // We do not have to import all of D3, only the selection module.
@@ -9,7 +10,6 @@ import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 // import * as d3 from "../../node_modules/d3-selection/dist/d3-selection.js";
 
 // Importing the data from data.js
-//
 import { data } from "./data.js";
 const tableData = data;
 
