@@ -13,7 +13,7 @@
     "css-purge": "purgecss --css static/css/style.css --content index.html --output static/css/",
     "css": "npm run css-compile && npm run css-prefix",
     "dev": "parcel index.html",
-    "build": "parcel build index.html --out-dir docs",
+    "build": "parcel build index.html --out-dir docs --public-url ./",
     "test": "npm run css"
   },
   "keywords": [
@@ -31,8 +31,8 @@
     "popper.js": "1.16.1-lts",
     "bootstrap": "4.5.2",
     "d3": "6.2.0",
-    "xstate": "4.11.0",
-    "postcss": "8.1.1"
+    "xstate": "4.13.0",
+    "postcss": "8.1.0"
   },
   "devDependencies": {
     "@types/jquery": "3.5.1",
@@ -48,7 +48,7 @@
     "postcss-cli": "8.0.0",
     "purgecss": "3.0.0",
     "parcel-bundler": "1.12.4",
-    "@babel/core": "7.2.0",
+    "@babel/core": "7.11.6",
     "prettier": "2.1.2"
   },
   "engines": {
