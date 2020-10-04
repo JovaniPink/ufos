@@ -53,6 +53,8 @@ function updateFilters() {
     delete filters[filterId];
   }
 
+  // elementValue ? filters[filterId] = elementValue : delete filters[filterId];
+
   filterTable();
 }
 

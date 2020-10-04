@@ -1,14 +1,14 @@
-# ufos
+# UFOs
 
 Providing more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
 
 ## What's included
 
-- Single HTML page (`index.html`) to demonstrate how to include Bootstrap.
+- Single HTML page (`index.html`) that includes Bootstrap and D3 and bundled with Parcel.
 - Includes Bootstrap (currently using v4.5.0) source files via npm.
-- npm scripts (see `package.json`) for compiling and autoprefixing Sass, watching for changes, and starting a basic local server.
-- Example stylesheet (`static/scss/style.scss`) highlighting two ways to include and customize Bootstrap.
-- Example JavaScript file (`static/js/starter.js`) showing how to import all of Bootstrap and adding app logic with D3.
+- npm scripts (see `package.json`) for compiling and autoprefixing Sass; serving index.html with Parcel; and bundling with Parcel to a 'docs' folder to host on github pages.
+- Example stylesheet (`static/scss/style.scss`).
+- Example app JavaScript file (`static/js/app.js`) showing how to import all of Bootstrap and adding app logic with D3.
 
 ## Usage
 
@@ -23,39 +23,25 @@ npm i
 
 # Compile Sass
 
-npm run css-compile
+npm run css
 
-# Watch Sass for changes (uses nodemon)
-npm run watch
-
-# Start local server (uses serve)
-npm run server
+# Start local server (uses Parcel)
+npm run dev
 ```
 
-For the most straightforward development, open two Terminal tabs to execute `npm run server` and `npm run watch` at the same time.
+Open <http://localhost:XXXX> to see the page in action.
 
-Open <http://localhost:3000> to see the page in action.
+## Overview of Project
 
-## Scripts
+## Summary
 
-The following npm scripts are available to you in this starter repo. With the exception of `npm start`, the remaining scripts can be run from your command line with `npm run scriptName`.
-
-| Script        | Description                                                                 |
-| ------------- | --------------------------------------------------------------------------- |
-| `server`      | Starts a local server (<http://localhost:3000>) for development             |
-| `watch`       | Automatically recompiles CSS as it watches the `scss` directory for changes |
-| `css`         | Runs `css-compile` and `css-prefix`                                         |
-| `css-compile` | Compiles source Sass into CSS                                               |
-| `css-prefix`  | Runs Autoprefixer on the compiled CSS                                       |
-| `css-purge`   | Runs PurgeCSS to remove CSS that is unused by `index.html`                  |
-
-- Sidenote: https://github.com/sass/node-sass#command-line-interface
+## Analysis and Challenges
 
 ## Todo Checklist
 
 A helpful checklist to gauge how your README is coming on what I would like to finish:
 
-- [ ] Experiement with GitHub Actions.
+- [ ] Experiment with GitHub Actions.
 - [ ] [Learn more about GitHub Actions](https://github.com/features/actions)
 - [ ] [read the Actions docs](https://help.github.com/en/actions)
 - [ ] [browse the Actions Marketplace](https://github.com/marketplace/actions)

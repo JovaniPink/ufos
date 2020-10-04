@@ -28,6 +28,8 @@ body {
 
 // Jumbotron
 #header {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
   background-image: url("../images/nasa.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
