@@ -17,7 +17,7 @@
 - Example stylesheet (`static/scss/style.scss`).
 - Example app JavaScript file (`static/js/app.js`) showing how to import all of Bootstrap and adding app logic with D3.
 
-## Usage
+## Developer Usage
 
 Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
@@ -28,10 +28,6 @@ cd ufos
 # Install dependencies
 npm i
 
-# Compile Sass
-
-npm run css
-
 # Start local server (uses Parcel)
 npm run dev
 ```
@@ -40,7 +36,7 @@ Open <http://localhost:1234> to see the page in action.
 
 ## Overview of Project
 
-UFOs is all about using D3.js and the [data](https://github.com/JovaniPink/ufos/blob/master/static/js/data.js) provided to all users dynamically search the data through a website [UFOs](https://jovanipink.github.io/ufos/).
+UFOs is all about using D3.js and the [data](https://github.com/JovaniPink/ufos/blob/master/static/js/data.js) provided to all users dynamically search the data through a website [UFOs](https://jovanipink.github.io/ufos/). Users are able to get a more in-depth analysis of UFO sightings by allowing them to filter for multiple criteria at the same time and view the number of data points.
 
 ## Summary
 
@@ -62,6 +58,10 @@ Our app is taking those columns and creating a HTML table using D3.js. We've als
 - Shape
 
 Based on the search criteria, the app would filter the table and generate a new one.
+
+### User Usage
+
+The website is currently hosted through the repo's Github and you could choose an input or multiple from the form above the table. Once you've entered all the filter, just click on the "Filter Table" button. A new table will be created for UFO sightings for the given filter list. We've made a little section on the top right of the table to let you know the amount of data points with the filters in place.
 
 ## Analysis and Challenges
 
