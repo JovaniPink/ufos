@@ -1,6 +1,13 @@
-# UFOs
+<p align="center">
+  <a href="https://jovanipink.github.io/ufos/">
+    <img alt="Gatsby" src="./static/favicon/android-chrome-192x192.png" width="192" />
+  </a>
+</p>
+<h1 align="center">
+  Orlando Service Relief
+</h1>
 
-Providing more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
+> Providing more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
 
 ## What's included
 
@@ -29,13 +36,44 @@ npm run css
 npm run dev
 ```
 
-Open <http://localhost:XXXX> to see the page in action.
+Open <http://localhost:1234> to see the page in action.
 
 ## Overview of Project
 
+UFOs is all about using D3.js and the [data](https://github.com/JovaniPink/ufos/blob/master/static/js/data.js) provided to all users dynamically search the data through a website [UFOs](https://jovanipink.github.io/ufos/).
+
 ## Summary
 
+The dataset provided is about UFO sightings in the United States with the following columns:
+
+- Date
+- City
+- State
+- Country
+- Shape
+- Comment
+
+Our app is taking those columns and creating a HTML table using D3.js. We've also used Bootstrap to properly lay out the table and add a from where users could search by using the input tags:
+
+- Date
+- City
+- State
+- Country
+- Shape
+
+Based on the search criteria, the app would filter the table and generate a new one.
+
 ## Analysis and Challenges
+
+We delivered the product to our client with the original mock looking like:
+
+![Old Layout](./resources/old_layout.png)
+
+But we decided to make some design changes with the HTML and Bootstrap layout and styling, to look like this:
+
+![New Layout](./resources/new_layout.png)
+
+The Design is not the only issues and things we have planned to redo and iterate on. As you can see our forms do not validate the inputs and could break our app code. Also the state management in the app.js itself needs to be worked on so we don't have functions changing state outside of themselves and refactor to easily add better features.
 
 ## Todo Checklist
 
