@@ -38,7 +38,7 @@
     "@types/jquery": "3.5.3",
     "@types/bootstrap": "4.5.1",
     "@types/d3": "5.16.3",
-    "@types/node": "14.11.10",
+    "@types/node": "14.14.0",
     "@types/node-sass": "4.11.1",
     "@types/autoprefixer": "9.7.2",
     "@types/babel-core": "6.25.3",
