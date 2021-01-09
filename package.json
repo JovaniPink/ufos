@@ -32,7 +32,7 @@
     "bootstrap": "4.5.3",
     "d3": "6.3.1",
     "xstate": "4.15.4",
-    "postcss": "8.2.2"
+    "postcss": "8.2.4"
   },
   "devDependencies": {
     "@types/jquery": "3.5.5",
