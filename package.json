@@ -31,7 +31,7 @@
     "popper.js": "1.16.1-lts",
     "bootstrap": "4.6.0",
     "d3": "6.7.0",
-    "xstate": "4.17.1",
+    "xstate": "4.18.0",
     "postcss": "8.2.13"
   },
   "devDependencies": {
