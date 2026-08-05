@@ -1,5 +1,6 @@
 // Import Bootstrap
 import 'bootstrap';
+import * as d3 from 'd3';
 
 // Importing the custom scss
 import '../scss/style.scss';
@@ -11,6 +12,7 @@ import '../scss/style.scss';
 
 // Importing the data from data.js
 import { data } from './data.js';
+import { filterRows } from './filter.js';
 const tableData = data;
 
 // Reference DOM elements
@@ -33,13 +35,7 @@ function updateFilters() {
 
 // Build the new filtered table
 function filterTable() {
-  let filterTable = tableData;
-
-  Object.entries(filters).forEach(([key, value]) => {
-    filterTable = filterTable.filter((row) => row[key] === value);
-  });
-
-  buildTable(filterTable);
+  buildTable(filterRows(tableData, filters));
 }
 
 // Build the Table from UFO data
